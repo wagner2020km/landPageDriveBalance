@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 26, 26, 26;
+  --background-end-rgb: 0, 0, 0;
+  --primary-color: #f9c900;
+  --primary-glow: 0 0 10px #ffea00;
+  --text-color: #ffffff;
+  --text-secondary: #cccccc;
+  --card-bg: #000000;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      rgb(var(--background-start-rgb)),
+      rgb(var(--background-end-rgb))
+    )
+    fixed;
+}
+
+.text-glow {
+  text-shadow: 0 0 10px rgba(255, 234, 0, 0.7);
+}
+
+.btn-primary {
+  @apply bg-[#f9c900] text-black font-bold py-3 px-6 rounded-lg hover:bg-[#ffea00] transition-all duration-300;
+}
+
+.btn-secondary {
+  @apply bg-transparent border-2 border-[#f9c900] text-[#f9c900] font-bold py-3 px-6 rounded-lg hover:bg-[#f9c900]/10 transition-all duration-300;
+}
+
+.card {
+  @apply bg-black p-6 rounded-xl shadow-lg border border-[#f9c900]/20;
+}
+
+.section-padding {
+  @apply py-16 md:py-24;
+}
+
+.container-custom {
+  @apply container mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.float-animation {
+  animation: float 3s ease-in-out infinite;
+}
