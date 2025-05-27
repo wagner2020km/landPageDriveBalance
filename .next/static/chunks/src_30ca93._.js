@@ -350,13 +350,13 @@ const HeroSection = ()=>{
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/sections/HeroSection.tsx",
                                                     lineNumber: 87,
-                                                    columnNumber: 18
+                                                    columnNumber: 32
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/sections/HeroSection.tsx",
                                             lineNumber: 86,
-                                            columnNumber: 3
+                                            columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/sections/HeroSection.tsx",
@@ -431,12 +431,12 @@ const HeroSection = ()=>{
                                                             className: "rounded-xl"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/sections/HeroSection.tsx",
-                                                            lineNumber: 119,
+                                                            lineNumber: 118,
                                                             columnNumber: 25
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/sections/HeroSection.tsx",
-                                                        lineNumber: 118,
+                                                        lineNumber: 117,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, image.id, false, {
@@ -455,12 +455,12 @@ const HeroSection = ()=>{
                                             "aria-label": "Slide anterior",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaChevronLeft"], {}, void 0, false, {
                                                 fileName: "[project]/src/components/sections/HeroSection.tsx",
-                                                lineNumber: 141,
+                                                lineNumber: 140,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/HeroSection.tsx",
-                                            lineNumber: 136,
+                                            lineNumber: 135,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -469,12 +469,12 @@ const HeroSection = ()=>{
                                             "aria-label": "Próximo slide",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaChevronRight"], {}, void 0, false, {
                                                 fileName: "[project]/src/components/sections/HeroSection.tsx",
-                                                lineNumber: 148,
+                                                lineNumber: 147,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/HeroSection.tsx",
-                                            lineNumber: 143,
+                                            lineNumber: 142,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -485,12 +485,12 @@ const HeroSection = ()=>{
                                                     "aria-label": `Ir para slide ${index + 1}`
                                                 }, index, false, {
                                                     fileName: "[project]/src/components/sections/HeroSection.tsx",
-                                                    lineNumber: 154,
+                                                    lineNumber: 153,
                                                     columnNumber: 21
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/HeroSection.tsx",
-                                            lineNumber: 152,
+                                            lineNumber: 151,
                                             columnNumber: 17
                                         }, this)
                                     ]
