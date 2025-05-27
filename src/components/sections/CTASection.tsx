@@ -38,7 +38,8 @@ const CTASection: React.FC = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              Junte-se a milhares de motoristas que já transformaram sua experiência ao volante com o Drive Balance. Baixe agora e comece a economizar combustível, aumentar sua segurança e desfrutar de cada trajeto.
+              Junte-se a milhares de motoristas que já transformaram sua experiência ao volante com o Drive Balance. Baixe agora e comece a economizar combustível e tenha 
+              controle total dos custos, consumo e desempenho do seu veículo. Cadastre-se, registre seu veículo, insira abastecimentos, despesas e receitas, e acompanhe todos os indicadores diretamente no dashboard. Simples, rápido e eficiente.
             </motion.p>
             
             <motion.div
@@ -48,9 +49,13 @@ const CTASection: React.FC = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.6 }}
             >
-              <Button className="px-8 py-4 text-lg">
+              <Button 
+              className="px-8 py-4 text-lg"
+              onClick={() => window.open('https://webpontocom.com.br/apkDriveBanlance/app-driveBalance.apk	', '_blank', 'noopener,noreferrer')}
+              >
                 Baixar Agora <FaArrowRight className="ml-2 inline" />
               </Button>
+ 
               <Button variant="secondary" className="px-8 py-4 text-lg">
                 Saiba Mais
               </Button>

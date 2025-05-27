@@ -23,7 +23,7 @@ const ProblemSolutionSection: React.FC = () => {
   return (
     <section className="bg-[#0a0a0a] section-padding">
       <div className="container-custom">
-        <motion.div 
+        <motion.div
           className="text-center mb-16"
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -31,7 +31,7 @@ const ProblemSolutionSection: React.FC = () => {
           transition={{ duration: 0.8 }}
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Desafios na <span className="text-[#f9c900]">Direção</span>, 
+            Desafios na <span className="text-[#f9c900]">Direção</span>,
             <br />Soluções em <span className="text-[#f9c900]">Equilíbrio</span>
           </h2>
           <p className="text-[#cccccc] max-w-2xl mx-auto">
@@ -59,28 +59,31 @@ const ProblemSolutionSection: React.FC = () => {
                   <FaShieldAlt className="text-[#f9c900] text-xl" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-lg mb-1">Segurança Comprometida</h4>
-                  <p className="text-[#cccccc]">Motoristas frequentemente desconhecem padrões de condução arriscados que podem levar a acidentes.</p>
+                  <h4 className="font-bold text-lg mb-1">Falta de Controle Financeiro</h4>
+                  <p className="text-[#cccccc]">Sem acompanhamento, é difícil entender para onde vai cada centavo dos custos com combustível e manutenção.</p>
                 </div>
               </motion.li>
+
               <motion.li variants={itemVariants} className="flex items-start">
                 <div className="bg-[#f9c900]/10 p-3 rounded-full mr-4">
                   <FaMoneyBillWave className="text-[#f9c900] text-xl" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-lg mb-1">Gastos Excessivos</h4>
-                  <p className="text-[#cccccc]">Consumo de combustível elevado devido a hábitos de condução ineficientes e falta de monitoramento.</p>
+                  <h4 className="font-bold text-lg mb-1">Gastos Fora de Controle</h4>
+                  <p className="text-[#cccccc]">Sem um sistema eficiente, pequenos desperdícios se acumulam, gerando despesas que poderiam ser evitadas.</p>
                 </div>
               </motion.li>
+
               <motion.li variants={itemVariants} className="flex items-start">
                 <div className="bg-[#f9c900]/10 p-3 rounded-full mr-4">
                   <FaSmile className="text-[#f9c900] text-xl" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-lg mb-1">Experiência Estressante</h4>
-                  <p className="text-[#cccccc]">Dirigir se torna uma tarefa estressante sem feedback construtivo e orientação para melhorias.</p>
+                  <h4 className="font-bold text-lg mb-1">Dificuldade em Planejar</h4>
+                  <p className="text-[#cccccc]">Sem dados claros, planejar abastecimentos, custos e prever despesas se torna uma tarefa imprecisa e insegura.</p>
                 </div>
               </motion.li>
+
             </motion.ul>
           </motion.div>
 
@@ -104,24 +107,29 @@ const ProblemSolutionSection: React.FC = () => {
             >
               <motion.li variants={itemVariants} className="flex items-center">
                 <div className="h-2 w-2 rounded-full bg-[#f9c900] mr-3"></div>
-                <p>Monitoramento em tempo real do seu estilo de condução</p>
+                <p>Monitoramento em tempo real dos custos operacionais</p>
               </motion.li>
+
               <motion.li variants={itemVariants} className="flex items-center">
                 <div className="h-2 w-2 rounded-full bg-[#f9c900] mr-3"></div>
-                <p>Análise detalhada de padrões e sugestões personalizadas</p>
+                <p>Análise precisa dos gastos com combustível e manutenção</p>
               </motion.li>
+
               <motion.li variants={itemVariants} className="flex items-center">
                 <div className="h-2 w-2 rounded-full bg-[#f9c900] mr-3"></div>
-                <p>Economia de combustível através de orientações inteligentes</p>
+                <p>Identificação de desperdícios e oportunidades de economia</p>
               </motion.li>
+
               <motion.li variants={itemVariants} className="flex items-center">
                 <div className="h-2 w-2 rounded-full bg-[#f9c900] mr-3"></div>
-                <p>Alertas de segurança preventivos para evitar riscos</p>
+                <p>Alertas inteligentes sobre aumentos inesperados nos custos</p>
               </motion.li>
+
               <motion.li variants={itemVariants} className="flex items-center">
                 <div className="h-2 w-2 rounded-full bg-[#f9c900] mr-3"></div>
-                <p>Interface intuitiva com feedback construtivo e motivador</p>
+                <p>Relatórios claros para planejar e otimizar seus gastos</p>
               </motion.li>
+
             </motion.ul>
           </motion.div>
         </div>

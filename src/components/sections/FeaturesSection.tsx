@@ -8,33 +8,33 @@ const FeaturesSection: React.FC = () => {
   const features = [
     {
       icon: <FaChartLine className="text-4xl text-[#f9c900]" />,
-      title: "Análise de Condução",
-      description: "Monitore e analise seu estilo de direção com métricas detalhadas e feedback em tempo real."
+      title: "Análise de Custos",
+      description: "Acompanhe em tempo real seus gastos operacionais e identifique oportunidades para economizar."
     },
     {
       icon: <FaCoins className="text-4xl text-[#f9c900]" />,
-      title: "Economia de Combustível",
-      description: "Reduza gastos com combustível através de dicas personalizadas baseadas no seu padrão de condução."
+      title: "Otimização de Combustível",
+      description: "Receba insights e estratégias personalizadas para reduzir o consumo de combustível de forma eficiente."
     },
     {
       icon: <FaShieldAlt className="text-4xl text-[#f9c900]" />,
-      title: "Segurança Aprimorada",
-      description: "Receba alertas preventivos e sugestões para uma condução mais segura em todas as situações."
+      title: "Controle Financeiro",
+      description: "Tenha controle total sobre seus custos, com alertas sobre variações e desperdícios no seu dia a dia."
     },
     {
       icon: <FaBell className="text-4xl text-[#f9c900]" />,
-      title: "Alertas Inteligentes",
-      description: "Notificações contextuais que ajudam a identificar e corrigir comportamentos de risco ao volante."
+      title: "Alertas de Despesas",
+      description: "Seja notificado instantaneamente sobre picos de gastos, desvios no consumo ou manutenção pendente."
     },
     {
       icon: <FaTrophy className="text-4xl text-[#f9c900]" />,
-      title: "Gamificação",
-      description: "Ganhe pontos, conquiste medalhas e compare seu desempenho com outros motoristas."
+      title: "Desempenho Econômico",
+      description: "Acompanhe seu desempenho em economia, estabeleça metas e visualize seus avanços financeiros."
     },
     {
       icon: <FaMobileAlt className="text-4xl text-[#f9c900]" />,
-      title: "Interface Intuitiva",
-      description: "Design moderno e fácil de usar, com acesso rápido a todas as funcionalidades do aplicativo."
+      title: "Gestão na Palma da Mão",
+      description: "Acesse relatórios, indicadores e análises detalhadas em uma interface intuitiva e prática."
     }
   ];
 

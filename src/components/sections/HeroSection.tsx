@@ -64,7 +64,7 @@ const HeroSection: React.FC = () => {
               transition={{ delay: 0.5, duration: 0.8 }}
             >
               Transforme sua experiência ao volante com o aplicativo que equilibra 
-              segurança, economia e prazer em cada trajeto. Monitore seu desempenho, 
+              praticidade, economia e prazer em cada trajeto. Monitore seu desempenho, 
               economize combustível e aprimore sua condução com o Drive Balance.
             </motion.p>
             <motion.div 
