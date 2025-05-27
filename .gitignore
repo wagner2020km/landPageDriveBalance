@@ -1,7 +1,23 @@
-# Ignorar a pasta node_modules
-node_modules/
-next.config.ts
-# Next.js
-.next/
-out/
-*.next
+# Dependencies
+/node_modules
+
+# Next.js build output
+/.next
+/out
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# MacOS
+.DS_Store
+
+# Others
+.next.config.ts
