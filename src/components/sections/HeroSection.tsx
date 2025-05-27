@@ -13,7 +13,7 @@ import fuel from '../../app/assets/imgCarrocel/fuel.jpeg';
 const HeroSection: React.FC = () => {
   // Estado para controlar o slide atual do carrossel
   const [currentSlide, setCurrentSlide] = useState(0);
-  
+
   // Array de imagens reais do app para o carrossel
   const carouselImages = [
     { id: 1, src: login, alt: "Tela de login do Drive Balance" },
@@ -35,7 +35,7 @@ const HeroSection: React.FC = () => {
     const interval = setInterval(() => {
       nextSlide();
     }, 4000);
-    
+
     return () => clearInterval(interval);
   }, [nextSlide]);
 
@@ -49,7 +49,7 @@ const HeroSection: React.FC = () => {
             transition={{ duration: 0.8 }}
           >
             <AnimatedTitle text="Drive Balance" />
-            <motion.p 
+            <motion.p
               className="text-xl text-[#cccccc] mt-4 italic"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -57,44 +57,44 @@ const HeroSection: React.FC = () => {
             >
               Equilíbrio que move você.
             </motion.p>
-            <motion.p 
+            <motion.p
               className="text-lg mt-6 mb-8 text-[#ffffff] max-w-lg"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.5, duration: 0.8 }}
             >
-              Transforme sua experiência ao volante com o aplicativo que equilibra 
-              praticidade, economia e prazer em cada trajeto. Monitore seu desempenho, 
+              Transforme sua experiência ao volante com o aplicativo que equilibra
+              praticidade, economia e prazer em cada trajeto. Monitore seu desempenho,
               economize combustível e aprimore sua condução com o Drive Balance.
             </motion.p>
-            <motion.div 
+            <motion.div
               className="flex flex-col sm:flex-row gap-4"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.7, duration: 0.8 }}
             >
               <Button
-               onClick={() => window.open('https://webpontocom.com.br/apkDriveBanlance/app-driveBalance.apk	', '_blank', 'noopener,noreferrer')}
+                onClick={() => window.open('https://webpontocom.com.br/apkDriveBanlance/app-driveBalance.apk	', '_blank', 'noopener,noreferrer')}
               >
                 Baixar Agora <FaArrowRight className="ml-2 inline" />
               </Button>
-              <a 
-  href="https://webpontocom.com.br/apkDriveBanlance/app-driveBalance.apk" 
-  target="_blank" 
-  rel="noopener noreferrer"
->
-  <Button className="px-8 py-4 text-lg">
-    Baixar Agora <FaArrowRight className="ml-2 inline" />
-  </Button>
-</a>
+              <a
+                href="https://webpontocom.com.br/apkDriveBanlance/app-driveBalance.apk"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button className="px-8 py-4 text-lg">
+                  Baixar Agora <FaArrowRight className="ml-2 inline" />
+                </Button>
+              </a>
               <Button variant="secondary">
                 Saiba Mais
               </Button>
             </motion.div>
           </motion.div>
-          
+
           {/* Carrossel de imagens */}
-          <motion.div 
+          <motion.div
             className="flex justify-center"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -103,24 +103,23 @@ const HeroSection: React.FC = () => {
             <div className="relative w-full max-w-md">
               {/* Efeito de brilho */}
               <div className="absolute inset-0 bg-[#f9c900]/20 rounded-full blur-3xl"></div>
-              
+
               {/* Container do carrossel */}
               <div className="relative float-animation rounded-xl overflow-hidden shadow-2xl border-2 border-[#f9c900]/30" style={{ height: '600px' }}>
                 {/* Slides do carrossel */}
                 <div className="relative w-full h-full">
                   {carouselImages.map((image, index) => (
-                    <div 
+                    <div
                       key={image.id}
-                      className={`absolute inset-0 flex items-center justify-center transition-opacity duration-500 ${
-                        index === currentSlide ? 'opacity-100 z-10' : 'opacity-0 z-0'
-                      }`}
+                      className={`absolute inset-0 flex items-center justify-center transition-opacity duration-500 ${index === currentSlide ? 'opacity-100 z-10' : 'opacity-0 z-0'
+                        }`}
                     >
                       <div className="relative w-full h-full">
                         <Image
                           src={image.src}
                           alt={image.alt}
                           fill
-                          style={{ 
+                          style={{
                             objectFit: 'contain',
                             objectPosition: 'center'
                           }}
@@ -131,32 +130,31 @@ const HeroSection: React.FC = () => {
                     </div>
                   ))}
                 </div>
-                
+
                 {/* Controles do carrossel */}
-                <button 
+                <button
                   onClick={prevSlide}
                   className="absolute left-2 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full z-20"
                   aria-label="Slide anterior"
                 >
                   <FaChevronLeft />
                 </button>
-                <button 
+                <button
                   onClick={nextSlide}
                   className="absolute right-2 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full z-20"
                   aria-label="Próximo slide"
                 >
                   <FaChevronRight />
                 </button>
-                
+
                 {/* Indicadores de slide */}
                 <div className="absolute bottom-4 left-0 right-0 flex justify-center gap-2 z-20">
                   {carouselImages.map((_, index) => (
                     <button
                       key={index}
                       onClick={() => setCurrentSlide(index)}
-                      className={`w-2 h-2 rounded-full ${
-                        index === currentSlide ? 'bg-white' : 'bg-white/50'
-                      }`}
+                      className={`w-2 h-2 rounded-full ${index === currentSlide ? 'bg-white' : 'bg-white/50'
+                        }`}
                       aria-label={`Ir para slide ${index + 1}`}
                     />
                   ))}
