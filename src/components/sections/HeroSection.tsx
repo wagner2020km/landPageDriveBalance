@@ -78,15 +78,6 @@ const HeroSection: React.FC = () => {
               >
                 Baixar Agora <FaArrowRight className="ml-2 inline" />
               </Button>
-              <a
-                href="https://webpontocom.com.br/apkDriveBanlance/app-driveBalance.apk"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button className="px-8 py-4 text-lg">
-                  Baixar Agora <FaArrowRight className="ml-2 inline" />
-                </Button>
-              </a>
               <Button variant="secondary">
                 Saiba Mais
               </Button>
