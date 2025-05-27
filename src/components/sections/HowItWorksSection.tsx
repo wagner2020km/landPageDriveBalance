@@ -2,29 +2,34 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaRegLightbulb, FaChartBar, FaRegThumbsUp, FaRegSmile } from 'react-icons/fa';
+import { FaUserPlus, FaCar, FaGasPump, FaMoneyBillWave, FaChartLine } from 'react-icons/fa';
 
 const HowItWorksSection: React.FC = () => {
   const steps = [
     {
-      icon: <FaRegLightbulb className="text-3xl text-[#f9c900]" />,
-      title: "Conecte-se",
-      description: "Faça login no aplicativo Drive Balance e permita o acesso aos sensores do seu smartphone."
+      icon: <FaUserPlus className="text-3xl text-[#f9c900]" />,
+      title: "Crie sua Conta",
+      description: "Realize seu cadastro no aplicativo e efetue login para acessar todas as funcionalidades."
     },
     {
-      icon: <FaChartBar className="text-3xl text-[#f9c900]" />,
-      title: "Monitore",
-      description: "O app coleta dados da sua condução e apresenta métricas em tempo real sobre seu desempenho."
+      icon: <FaCar className="text-3xl text-[#f9c900]" />,
+      title: "Cadastre seu Veículo",
+      description: "Adicione as informações do seu veículo para que os dados sejam analisados corretamente."
     },
     {
-      icon: <FaRegThumbsUp className="text-3xl text-[#f9c900]" />,
-      title: "Aprimore",
-      description: "Receba dicas personalizadas e siga as recomendações para melhorar seu estilo de direção."
+      icon: <FaGasPump className="text-3xl text-[#f9c900]" />,
+      title: "Registre seus Abastecimentos",
+      description: "Informe cada abastecimento realizado para um controle preciso do consumo e dos custos."
     },
     {
-      icon: <FaRegSmile className="text-3xl text-[#f9c900]" />,
-      title: "Economize",
-      description: "Veja os resultados em economia de combustível, maior segurança e uma experiência mais prazerosa."
+      icon: <FaMoneyBillWave className="text-3xl text-[#f9c900]" />,
+      title: "Inclua Gastos e Receitas",
+      description: "Adicione despesas e entradas relacionadas ao veículo para uma visão financeira completa."
+    },
+    {
+      icon: <FaChartLine className="text-3xl text-[#f9c900]" />,
+      title: "Acompanhe sua Performance",
+      description: "Visualize no dashboard da tela inicial todos os indicadores de desempenho, consumo e saúde financeira do veículo."
     }
   ];
 
@@ -42,7 +47,7 @@ const HowItWorksSection: React.FC = () => {
             Como <span className="text-[#f9c900]">Funciona</span>
           </h2>
           <p className="text-[#cccccc] max-w-2xl mx-auto">
-            Em apenas quatro passos simples, você transforma completamente sua experiência ao volante com o Drive Balance.
+            Siga estes passos simples para começar a utilizar o aplicativo e ter total controle sobre os dados e custos do seu veículo.
           </p>
         </motion.div>
 
