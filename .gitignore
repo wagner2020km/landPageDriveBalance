@@ -1,5 +1,4 @@
-# Dependências
-/node_modules
+node_modules
 
 # Build do Next.js
 /.next
