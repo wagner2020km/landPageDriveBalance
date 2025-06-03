@@ -1,7 +1,8 @@
-import type { NextConfig } from 'next';
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  experimental: {
+    turbo: false, // Desativa Turbopack
+  },
+}
 
-const nextConfig: NextConfig = {
-  basePath: '/driveBalance'
- };
-
-export default nextConfig;
+module.exports = nextConfig
