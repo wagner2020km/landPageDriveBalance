@@ -7,7 +7,7 @@
 
 # Arquivo de configuração do Next.js
 next.config.ts
-
+.next/
 # Arquivos de ambiente locais
 .env.local
 .env.development.local

@@ -74,7 +74,16 @@ const HeroSection: React.FC = () => {
               transition={{ delay: 0.7, duration: 0.8 }}
             >
               <Button
-                onClick={() => window.open('https://webpontocom.com.br/apkDriveBanlance/app-driveBalance.apk	', '_blank', 'noopener,noreferrer')}
+                 onClick={() =>
+                  /*
+                  window.open(
+                    "https://webpontocom.com.br/apkDriveBanlance/app-driveBalance.apk",
+                    "_blank",
+                    "noopener,noreferrer"
+                  )
+                    */
+                   alert('Em breve ')
+                }
               >
                 Baixar Agora <FaArrowRight className="ml-2 inline" />
               </Button>

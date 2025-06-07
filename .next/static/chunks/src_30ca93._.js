@@ -321,14 +321,20 @@ const HeroSection = ()=>{
                                 },
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$Button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                        onClick: ()=>window.open('https://webpontocom.com.br/apkDriveBanlance/app-driveBalance.apk	', '_blank', 'noopener,noreferrer'),
+                                        onClick: ()=>/*
+                  window.open(
+                    "https://webpontocom.com.br/apkDriveBanlance/app-driveBalance.apk",
+                    "_blank",
+                    "noopener,noreferrer"
+                  )
+                    */ alert('Em breve '),
                                         children: [
                                             "Baixar Agora ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaArrowRight"], {
                                                 className: "ml-2 inline"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/sections/HeroSection.tsx",
-                                                lineNumber: 79,
+                                                lineNumber: 88,
                                                 columnNumber: 30
                                             }, this)
                                         ]
@@ -342,7 +348,7 @@ const HeroSection = ()=>{
                                         children: "Saiba Mais"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/sections/HeroSection.tsx",
-                                        lineNumber: 81,
+                                        lineNumber: 90,
                                         columnNumber: 15
                                     }, this)
                                 ]
@@ -378,7 +384,7 @@ const HeroSection = ()=>{
                                     className: "absolute inset-0 bg-[#f9c900]/20 rounded-full blur-3xl"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/HeroSection.tsx",
-                                    lineNumber: 96,
+                                    lineNumber: 105,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -405,22 +411,22 @@ const HeroSection = ()=>{
                                                             className: "rounded-xl"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/sections/HeroSection.tsx",
-                                                            lineNumber: 109,
+                                                            lineNumber: 118,
                                                             columnNumber: 25
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/sections/HeroSection.tsx",
-                                                        lineNumber: 108,
+                                                        lineNumber: 117,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, image.id, false, {
                                                     fileName: "[project]/src/components/sections/HeroSection.tsx",
-                                                    lineNumber: 103,
+                                                    lineNumber: 112,
                                                     columnNumber: 21
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/HeroSection.tsx",
-                                            lineNumber: 101,
+                                            lineNumber: 110,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -429,12 +435,12 @@ const HeroSection = ()=>{
                                             "aria-label": "Slide anterior",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaChevronLeft"], {}, void 0, false, {
                                                 fileName: "[project]/src/components/sections/HeroSection.tsx",
-                                                lineNumber: 131,
+                                                lineNumber: 140,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/HeroSection.tsx",
-                                            lineNumber: 126,
+                                            lineNumber: 135,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -443,12 +449,12 @@ const HeroSection = ()=>{
                                             "aria-label": "Próximo slide",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaChevronRight"], {}, void 0, false, {
                                                 fileName: "[project]/src/components/sections/HeroSection.tsx",
-                                                lineNumber: 138,
+                                                lineNumber: 147,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/HeroSection.tsx",
-                                            lineNumber: 133,
+                                            lineNumber: 142,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -459,29 +465,29 @@ const HeroSection = ()=>{
                                                     "aria-label": `Ir para slide ${index + 1}`
                                                 }, index, false, {
                                                     fileName: "[project]/src/components/sections/HeroSection.tsx",
-                                                    lineNumber: 144,
+                                                    lineNumber: 153,
                                                     columnNumber: 21
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/HeroSection.tsx",
-                                            lineNumber: 142,
+                                            lineNumber: 151,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/sections/HeroSection.tsx",
-                                    lineNumber: 99,
+                                    lineNumber: 108,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/sections/HeroSection.tsx",
-                            lineNumber: 94,
+                            lineNumber: 103,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/sections/HeroSection.tsx",
-                        lineNumber: 88,
+                        lineNumber: 97,
                         columnNumber: 11
                     }, this)
                 ]
@@ -1674,14 +1680,20 @@ const CTASection = ()=>{
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$Button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                             className: "px-8 py-4 text-lg",
-                                            onClick: ()=>window.open("https://webpontocom.com.br/apkDriveBanlance/app-driveBalance.apk", "_blank", "noopener,noreferrer"),
+                                            onClick: ()=>/*
+                  window.open(
+                    "https://webpontocom.com.br/apkDriveBanlance/app-driveBalance.apk",
+                    "_blank",
+                    "noopener,noreferrer"
+                  )
+                    */ alert('Em breve '),
                                             children: [
                                                 "Baixar Agora ",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaArrowRight"], {
                                                     className: "ml-2 inline"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/sections/CTASection.tsx",
-                                                    lineNumber: 101,
+                                                    lineNumber: 104,
                                                     columnNumber: 30
                                                 }, this)
                                             ]
@@ -1696,7 +1708,7 @@ const CTASection = ()=>{
                                             children: "Saiba Mais"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/CTASection.tsx",
-                                            lineNumber: 104,
+                                            lineNumber: 107,
                                             columnNumber: 15
                                         }, this)
                                     ]
@@ -1759,7 +1771,7 @@ const CTASection = ()=>{
                                 children: "🚀 Lançamento Está Próximo!"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/sections/CTASection.tsx",
-                                lineNumber: 128,
+                                lineNumber: 131,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1771,13 +1783,13 @@ const CTASection = ()=>{
                                         children: "14 de Junho de 2025"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/sections/CTASection.tsx",
-                                        lineNumber: 133,
+                                        lineNumber: 136,
                                         columnNumber: 37
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/sections/CTASection.tsx",
-                                lineNumber: 132,
+                                lineNumber: 135,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1785,7 +1797,7 @@ const CTASection = ()=>{
                                 children: "Faltam apenas:"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/sections/CTASection.tsx",
-                                lineNumber: 136,
+                                lineNumber: 139,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1799,7 +1811,7 @@ const CTASection = ()=>{
                                                 children: timeLeft.days
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/sections/CTASection.tsx",
-                                                lineNumber: 142,
+                                                lineNumber: 145,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1807,13 +1819,13 @@ const CTASection = ()=>{
                                                 children: "Dias"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/sections/CTASection.tsx",
-                                                lineNumber: 145,
+                                                lineNumber: 148,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/sections/CTASection.tsx",
-                                        lineNumber: 141,
+                                        lineNumber: 144,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1824,7 +1836,7 @@ const CTASection = ()=>{
                                                 children: timeLeft.hours
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/sections/CTASection.tsx",
-                                                lineNumber: 148,
+                                                lineNumber: 151,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1832,13 +1844,13 @@ const CTASection = ()=>{
                                                 children: "Horas"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/sections/CTASection.tsx",
-                                                lineNumber: 151,
+                                                lineNumber: 154,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/sections/CTASection.tsx",
-                                        lineNumber: 147,
+                                        lineNumber: 150,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1849,7 +1861,7 @@ const CTASection = ()=>{
                                                 children: timeLeft.minutes
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/sections/CTASection.tsx",
-                                                lineNumber: 154,
+                                                lineNumber: 157,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1857,13 +1869,13 @@ const CTASection = ()=>{
                                                 children: "Minutos"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/sections/CTASection.tsx",
-                                                lineNumber: 157,
+                                                lineNumber: 160,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/sections/CTASection.tsx",
-                                        lineNumber: 153,
+                                        lineNumber: 156,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1874,7 +1886,7 @@ const CTASection = ()=>{
                                                 children: timeLeft.seconds
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/sections/CTASection.tsx",
-                                                lineNumber: 160,
+                                                lineNumber: 163,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1882,19 +1894,19 @@ const CTASection = ()=>{
                                                 children: "Segundos"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/sections/CTASection.tsx",
-                                                lineNumber: 163,
+                                                lineNumber: 166,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/sections/CTASection.tsx",
-                                        lineNumber: 159,
+                                        lineNumber: 162,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/sections/CTASection.tsx",
-                                lineNumber: 140,
+                                lineNumber: 143,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$Button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1903,23 +1915,23 @@ const CTASection = ()=>{
                                 children: "Fechar"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/sections/CTASection.tsx",
-                                lineNumber: 167,
+                                lineNumber: 170,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/sections/CTASection.tsx",
-                        lineNumber: 121,
+                        lineNumber: 124,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/sections/CTASection.tsx",
-                    lineNumber: 115,
+                    lineNumber: 118,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/sections/CTASection.tsx",
-                lineNumber: 113,
+                lineNumber: 116,
                 columnNumber: 7
             }, this)
         ]
