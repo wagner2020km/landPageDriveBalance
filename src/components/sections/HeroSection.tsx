@@ -75,14 +75,11 @@ const HeroSection: React.FC = () => {
             >
               <Button
                  onClick={() =>
-                  /*
                   window.open(
                     "https://webpontocom.com.br/apkDriveBanlance/app-driveBalance.apk",
                     "_blank",
                     "noopener,noreferrer"
                   )
-                    */
-                   alert('Em breve ')
                 }
               >
                 Baixar Agora <FaArrowRight className="ml-2 inline" />

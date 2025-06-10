@@ -1,5 +1,4 @@
-  GNU nano 5.6.1                                                                                      .gitignore                                                                                                 # Dependências
-/node_modules
+node_modules
 
 # Build do Next.js
 /.next
