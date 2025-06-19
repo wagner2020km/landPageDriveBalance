@@ -43,7 +43,7 @@ const Footer: React.FC = () => {
           >
            <a href="/driveBalance/politica" className="hover:text-[#f9c900] transition-colors">Política de Privacidade</a>
             <ul className="space-y-2 text-[#cccccc]">
-              <li><a href="/driveBalance/contatos" className="hover:text-[#f9c900] transition-colors">Contato</a></li>
+              <li><a href="/driveBalance/contato" className="hover:text-[#f9c900] transition-colors">Contato</a></li>
               <li><a href="#" className="hover:text-[#f9c900] transition-colors">Como Funciona</a></li>
               <li><a href="#" className="hover:text-[#f9c900] transition-colors">Preços</a></li>
               <li><a href="#" className="hover:text-[#f9c900] transition-colors">FAQ</a></li>
