@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.1 }}
           >
-            <h3 className="text-xl font-bold text-white mb-4">Produto</h3>
+           <a href="/politica" className="hover:text-[#f9c900] transition-colors">Política de Privacidade</a>
             <ul className="space-y-2 text-[#cccccc]">
               <li><a href="#" className="hover:text-[#f9c900] transition-colors">Recursos</a></li>
               <li><a href="#" className="hover:text-[#f9c900] transition-colors">Como Funciona</a></li>
@@ -74,7 +74,7 @@ const Footer: React.FC = () => {
             <h3 className="text-xl font-bold text-white mb-4">Contato</h3>
             <p className="text-[#cccccc] mb-2">Tem alguma dúvida?</p>
             <a href="mailto:contato@drivebalance.com" className="flex items-center text-[#f9c900] hover:underline">
-              <FaEnvelope className="mr-2" /> contato@drivebalance.com
+              <FaEnvelope className="mr-2" /> wagnervaguim@gmail.com
             </a>
           </motion.div>
         </div>
