@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.1 }}
           >
-           <a href="/politica" className="hover:text-[#f9c900] transition-colors">Política de Privacidade</a>
+           <a href="/driveBalance/politica" className="hover:text-[#f9c900] transition-colors">Política de Privacidade</a>
             <ul className="space-y-2 text-[#cccccc]">
               <li><a href="#" className="hover:text-[#f9c900] transition-colors">Recursos</a></li>
               <li><a href="#" className="hover:text-[#f9c900] transition-colors">Como Funciona</a></li>

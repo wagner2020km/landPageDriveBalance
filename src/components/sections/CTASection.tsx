@@ -28,7 +28,7 @@ const calculateTimeLeft = () => {
 };
 
 const CTASection: React.FC = () => {
-  const [showModal, setShowModal] = useState(true);
+  const [showModal, setShowModal] = useState(false);
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
   useEffect(() => {
